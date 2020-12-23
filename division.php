@@ -54,7 +54,7 @@
                     </tr>
                    <tr>
                        <td></td>
-                       <td><button onclick="mybuttonclick()" class="btn btn-success">DIVISION</button></td>
+                       <td><button onclick="mybuttonclick()" class="btn btn-success">DIVIDE</button></td>
                    </tr>
                    <tr>
                   
