@@ -17,19 +17,19 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a  class="nav-link" href="add.html">ADD</a>
+                    <a  class="nav-link" href="add.php">ADD</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="subtract.html">SUBTRACT</a>
+                    <a class="nav-link" href="subtract.php">SUBTRACT</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="product.html">MULTIPLY</a>
+                    <a class="nav-link" href="product.php">MULTIPLY</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="division.html">DIVIDE</a>
+                    <a class="nav-link" href="division.php">DIVIDE</a>
                   </li>
                   
                 </ul>
@@ -54,13 +54,13 @@
                     </tr>
                    <tr>
                        <td></td>
-                       <td><button onclick="mybuttonclick()" class="btn btn-success">DIVISION</button></td>
+                       <td><button onclick="mybuttonclick()" class="btn btn-success">ADD</button></td>
                    </tr>
                    <tr>
                   
                     <tr>
                         <td>
-                            <p>The QUOTIENT is : 
+                            <p>The SUM is : 
                                 <span id = "DisplayResult"></span>
                                 </p>
                         </td>
@@ -78,7 +78,7 @@
         {
               var getFirstNumber=parseInt(document.getElementById("num1").value)
               var getSecondNumber=parseInt(document.getElementById("num2").value)
-              var DisplayResult=getFirstNumber/getSecondNumber
+              var DisplayResult=getFirstNumber+getSecondNumber
               document.getElementById("DisplayResult").innerHTML=DisplayResult
         }
     </script>
